@@ -20,3 +20,6 @@ I am in *cse15l* **lab**.
 ```
 System.out.println("I wish I can finish");
 ```
+---
+
+Experimenting with VS Code
