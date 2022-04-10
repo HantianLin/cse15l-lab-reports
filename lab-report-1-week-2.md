@@ -66,4 +66,5 @@ Enter file in which to save the key (/Users/hantian_lin/.ssh/id_rsa):
 * Use **up arrow** to repeat the previous commands.
 * Use **tab** to auto-fill file paths and names.
 * Use **copy and paste** to input complex paths.
-* Type multiple commands in one line by using **semicolon** to separate commands.
+* Type multiple commands in one line by using **semicolon** to separate commands as shown:
+![opt1](opt1.png)
