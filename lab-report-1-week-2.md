@@ -68,3 +68,5 @@ Enter file in which to save the key (/Users/hantian_lin/.ssh/id_rsa):
 * Use **copy and paste** to input complex paths.
 * Type multiple commands in one line by using **semicolon** to separate commands as shown:
 ![opt1](opt1.png)
+* Most importantly, after **setting the SSH key**, you can save all the time you spent on typing password. As shown, I can login without needing to input password:
+![opt2](opt2.png)
