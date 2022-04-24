@@ -35,4 +35,5 @@ The scanner would not work properly to skip these lines and locate the next pare
 ![symptom2](symptom2.png)
 * The file only contains open and close brackets but no open or close parenthesis.\
 Therefore, both indexOf methods locating parenthesis would return -1.\
-Later in the code, when using the index of open and close parenthesis to coordinate the substring method, the symptom is that the substring method would cause StringIndexOutOfBoundsException since -1 is an invalid index.
+Later in the code, when using the index of open and close parenthesis to coordinate the substring method, the symptom is that the substring method would cause StringIndexOutOfBoundsException since -1 is an invalid index.\
+At this point, MarkdownParse passed every test file from lab 3.
