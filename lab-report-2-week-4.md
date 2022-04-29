@@ -4,14 +4,13 @@ Hantian Lin A16923770
 ---
 ## First code change
 * Code diff:
-![change3](change3.png)
-* * [Link to the failure-inducing input](https://github.com/HantianLin/markdown-parser/blob/main/new-file.md)
+![change4](change4.png)
+* * [Link to the failure-inducing input](https://github.com/HantianLin/markdown-parser/blob/main/mytest-file.md)
 * Symptom of the failure:
-![symptom3](symptom3.png)
-* The file contains empty lines before. between, and after links. The original code cannot skip these empty lines.\
-The symptom is that there is no ouput. The code is trapped in an infinite loop, causing OutOfMemory exception.\
-Therefore, there would be no open or close parenthesis to search for, thus the current index would never get updated to escape the while-loop.
-However, this did not solve the problem.
+![symptom3](symptom4.png)
+* The file contains images. However, the name of image should no be considered as an actual link even though it is also surrounded by brackets.\
+The symptom is that the code also outputs the image link.\
+The fix includes an if-else statement to exclude the link after the exclamation mark.
 
 
 ---
@@ -21,9 +20,9 @@ However, this did not solve the problem.
 * [Link to the failure-inducing input](https://github.com/HantianLin/markdown-parser/blob/main/new-file.md)
 * Symptom of the failure:
 ![symptom1](symptom1.png)
-* I used the same file for testing, same location for empty lines.\
-The symptom is that the while-loop is still an infinite loop because the code still cannot resolve empty lines.\
-The scanner would not work properly to skip these lines and locate the next parenthesis.
+* The file contains empty lines before. between, and after links. The original code cannot skip these empty lines.\
+The symptom is that there is no ouput. The code is trapped in an infinite loop, causing OutOfMemory exception.\
+Therefore, there would be no open or close parenthesis to search for, thus the current index would never get updated to escape the while-loop.
 
 
 ---
