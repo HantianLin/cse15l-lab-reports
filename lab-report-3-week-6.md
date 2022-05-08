@@ -15,7 +15,10 @@ I created and opened the `config` file using terminal and manually typed in the 
 
 ---
 ## Setup Github Access from ieng6
-* 
+* The ssh key is stored in both Github, the local computer, and the remote computer, as shown:
+![setup1](setup1.png)
+![setup2](setup2.png)
+![setup3](setup3.png)
 
 ---
 ## Copy whole directories with `scp -r`
@@ -25,3 +28,6 @@ and by checking using `ls`, the directory is indeed there, as shown:
 ![scp2](scp2.png)
 * After copying, I can compile and run the tests, as shown:
 ![scp3](scp3.png)
+* I can improve efficiency by combing `scp` and `ssh` commands when compiling and running tests, as shown:
+![scp4](scp4.png)
+![scp5](scp5.png)
