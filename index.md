@@ -1,28 +1,8 @@
-`Hello World!`
+# Lab Report Indexes
+## Hantian Lin A16923770
 
-# About today
-## 4/8 Friday.
+[Lab Report 1](https://github.com/HantianLin/cse15l-lab-reports/blob/main/lab-report-1-week-2.md)
 
-I am in *cse15l* **lab**.
-[cse15l website](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home?authuser=0)
-![cs](https://www.eecs.mit.edu/wp-content/uploads/2021/06/compscihero-1024x545.jpg)
+[Lab Report 2](https://github.com/HantianLin/cse15l-lab-reports/blob/main/lab-report-2-week-4.md)
 
-> To-do list
-* Finish lab report
-* Finish WCWP project
-* Finish CSE21 quizzes
-* Finish MATH20D homework:
-1. Homework #2
-2. MATLAB homework #1
-
----
-
-```
-System.out.println("I wish I can finish");
-```
----
-
-Experimenting with VS Code
-
-[Lab Report 1](lab-report-1-week-2.html)
-[Lab Report 1](https://HantianLin.github.io/<cse15l-lab-reports>/lab-report-1-week-2.html)
+[Lab Report 3]()
