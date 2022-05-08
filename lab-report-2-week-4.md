@@ -5,7 +5,7 @@ Hantian Lin A16923770
 ## First code change
 * Code diff:
 ![change4](change4.png)
-* * [Link to the failure-inducing input](https://github.com/HantianLin/markdown-parser/blob/main/mytest-file.md)
+* [Link to the failure-inducing input](https://github.com/HantianLin/markdown-parser/blob/main/mytest-file.md)
 * Symptom of the failure:
 ![symptom3](symptom4.png)
 * The file contains images. However, the name of image should no be considered as an actual link even though it is also surrounded by brackets.\
